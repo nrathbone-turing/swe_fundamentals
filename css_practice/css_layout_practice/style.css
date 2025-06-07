@@ -1,0 +1,32 @@
+/* style.css */
+
+.product-card {
+    display: flex; /* Activate flexbox layout */
+    flex-wrap: nowrap;  /* Force side-by-side layout */
+    /* can use this if you don't need to enforce 2 columns flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+    border: 1px solid #ddd; /* Add a thin border */
+    padding: 1em; /* Add some space around the content */
+    margin: 1em; /* Add some margin between cards */
+    max-width: 1000px; /* Optional: constrain overall width */
+    }
+
+.product-card img {
+    object-fit: cover; /* Keeps image nicely scaled/cropped */
+    /* can use this if you have a smaller image  flex: 1 1 auto; /* Allow the image to shrink and grow as needed */
+    padding: 0.5em; /* Add some padding around the image */
+    width: 50%; /* Sets the image to 50% of the container */
+    }
+
+.product-card-details {
+    width: 50%; /* Allow the details to use 50% of the container */
+    padding: 0.5em;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center; /* Justify the text to be centered within this column */
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 1em;
+}
