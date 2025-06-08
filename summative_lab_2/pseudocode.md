@@ -12,7 +12,7 @@
         <title>Nick Rathbone - Portfolio</title>
 
     <!-- Link to CSS stylesheet file -->
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="style.css" />
     </head>
 
     <body>
